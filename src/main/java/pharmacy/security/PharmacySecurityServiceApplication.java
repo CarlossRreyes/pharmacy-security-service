@@ -1,0 +1,13 @@
+package pharmacy.security;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PharmacySecurityServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PharmacySecurityServiceApplication.class, args);
+	}
+
+}
